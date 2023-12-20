@@ -1,18 +1,22 @@
 import argparse
 
+from Layers import TextIDMapper
 from Models import Chatbot
 
 
 def start_inference():
     # Use a breakpoint in the code line below to debug your script.
     new_data = []
+    text_processor = TextIDMapper()
+    text_processor.load_vocab('./Data/tokens_by_type.json')
+    chatbot = Chatbot(text_processor)
 
     while True:
         sentence = str(input("User: "))
         if sentence == 'quit':
             break
 
-        translated_text, translated_tokens, attention_weights = predict(model, tf.constant(sentence))
+        translated_text, translated_tokens, attention_weights = chatbot.predict(sentence)
         response = translated_text.numpy().decode('utf-8')
         print("Bot: ", response)
         not_correct = 'n' in str(input("Response is correct? [y] [n]: "))
@@ -26,7 +30,7 @@ def main():
 
     # Adição de argumentos
     parser.add_argument('mode', type=str, help='Modo inference ou training')
-    parser.add_argument('dataset', type=str, help='Caminho até a localização do dataset .db')
+    parser.add_argument('--dataset', type=str, help='Caminho até a localização do dataset .db')
 
     # Parse dos argumentos
     args = parser.parse_args()

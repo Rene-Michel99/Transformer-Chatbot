@@ -1,3 +1,4 @@
+import re
 import tensorflow as tf
 
 from Layers import TextIDMapper, Transformer
@@ -32,17 +33,6 @@ class Chatbot(tf.keras.models.Model):
 
         return self.transformer(batch_data), answers_labels
 
-    def _prepare_batch(self, query, answer):
-        query = self.text_processor(query, 'input')  # Output is ragged.
-        query = query[:, :self.MAX_TOKENS]  # Trim to MAX_TOKENS.
-
-        answer = self.text_processor(answer, 'input')
-        answer = answer[:, :(self.MAX_TOKENS + 1)]
-        answer_inputs = answer[:, :-1]  # Drop the [END] tokens
-        answer_labels = answer[:, 1:]  # Drop the [START] tokens
-
-        return (query, answer_inputs), answer_labels
-
     def train_step(self, data):
         # Unpack the data. Its structure depends on your model and
         # on what you pass to `fit()`.
@@ -71,9 +61,10 @@ class Chatbot(tf.keras.models.Model):
 
         return result
 
-    def predict(self, sentence, max_length=128):
+    def predict(self, sentence: str, max_length=128):
         # The input sentence is Portuguese, hence adding the `[START]` and `[END]` tokens.
-        assert isinstance(sentence, tf.Tensor)
+
+        sentence = tf.constant(self._preprocess_input_sentence(sentence))
         if len(sentence.shape) == 0:
             sentence = sentence[tf.newaxis]
 
@@ -120,3 +111,24 @@ class Chatbot(tf.keras.models.Model):
         attention_weights = self.transformer.decoder.last_attn_scores
 
         return text, None, attention_weights
+
+    def _prepare_batch(self, query, answer):
+        query = self.text_processor(query, 'input')  # Output is ragged.
+        query = query[:, :self.MAX_TOKENS]  # Trim to MAX_TOKENS.
+
+        answer = self.text_processor(answer, 'input')
+        answer = answer[:, :(self.MAX_TOKENS + 1)]
+        answer_inputs = answer[:, :-1]  # Drop the [END] tokens
+        answer_labels = answer[:, 1:]  # Drop the [START] tokens
+
+        return (query, answer_inputs), answer_labels
+
+    @staticmethod
+    def _preprocess_input_sentence(text: str):
+        text = re.sub(r"([.!,?])", r" \1", text)
+        text = text.replace('(', ' ( ')
+        text = text.replace(')', ' ) ')
+        text = text.replace('/', ' / ')
+
+        return text.lower().strip()
+

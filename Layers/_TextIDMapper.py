@@ -1,3 +1,4 @@
+import json
 import re
 import spacy
 import tensorflow as tf
@@ -9,12 +10,34 @@ class TextIDMapper(tf.keras.layers.Layer):
     def __init__(self):
         super().__init__()
         self.nlp = spacy.load("pt_core_news_md")
+
+        # dont need to add [UNK] and ''
         self.words = [
             '[START]',
             '[END]',
         ]
         self.id_to_word = None
         self.word_to_id = None
+
+    def load_vocab(self, json_path: str):
+        with open(json_path, 'rb') as f:
+            tokens_by_type = json.load(f)
+
+        for grammar_block in tokens_by_type.values():
+            for word_group in grammar_block.values():
+                self.words.extend(word_group)
+
+        self.word_to_id = tf.keras.layers.TextVectorization(
+            max_tokens=5000,
+            vocabulary=self.words,
+            split='whitespace',
+            standardize=self._standardize
+        )
+        self.id_to_word = tf.keras.layers.StringLookup(
+            vocabulary=self.word_to_id.get_vocabulary(),
+            mask_token='', oov_token='[UNK]',
+            invert=True
+        )
 
     def adapt(self, dataset: list):
         special_tokens = {}
