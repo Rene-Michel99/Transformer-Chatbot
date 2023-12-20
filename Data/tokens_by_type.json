@@ -1,0 +1,3169 @@
+{
+	"INTJ": {
+		"olá": [
+			"olá"
+		],
+		"tá": [
+			"tá"
+		],
+		"nah": [
+			"nah"
+		]
+	},
+	"PUNCT": {
+		".": [
+			"."
+		],
+		"?": [
+			"?"
+		],
+		",": [
+			","
+		],
+		"!": [
+			"!"
+		],
+		"(": [
+			"("
+		],
+		")": [
+			")"
+		],
+		"oh": [
+			"oh"
+		],
+		"/": [
+			"/"
+		]
+	},
+	"PROPN": {
+		"oi": [
+			"oi"
+		],
+		"thau": [
+			"thau"
+		],
+		"Chatgpt": [
+			"chatgpt"
+		],
+		"van": [
+			"van"
+		],
+		"rossum": [
+			"rossum"
+		],
+		"windows": [
+			"windows"
+		],
+		"i": [
+			"i"
+		],
+		"like": [
+			"like"
+		],
+		"to": [
+			"to"
+		],
+		"with": [
+			"with"
+		],
+		"people": [
+			"people"
+		],
+		"Find": [
+			"find"
+		],
+		"it": [
+			"it"
+		],
+		"stimulating": [
+			"stimulating"
+		],
+		"am": [
+			"am"
+		],
+		"just": [
+			"just"
+		],
+		"an": [
+			"an"
+		],
+		"John": [
+			"john"
+		],
+		"Von": [
+			"von"
+		],
+		"Neumann": [
+			"neumann"
+		],
+		"princeton": [
+			"princeton"
+		],
+		"jacquard": [
+			"jacquard"
+		],
+		"loom": [
+			"loom"
+		],
+		"silício": [
+			"silício"
+		],
+		"Random": [
+			"random"
+		],
+		"access": [
+			"access"
+		],
+		"memory": [
+			"memory"
+		],
+		"only": [
+			"only"
+		],
+		"Processing": [
+			"processing"
+		],
+		"unit": [
+			"unit"
+		],
+		"cpu": [
+			"cpu"
+		],
+		"pc": [
+			"pc"
+		],
+		"hd": [
+			"hd"
+		],
+		"ssd": [
+			"ssd"
+		],
+		"Mint": [
+			"mint"
+		],
+		"hp": [
+			"hp"
+		],
+		"mit": [
+			"mit"
+		],
+		"ciumes": [
+			"ciumes"
+		],
+		"Las": [
+			"las"
+		],
+		"Internet": [
+			"internet"
+		]
+	},
+	"TAG": {
+		"TAG": [
+			"<user>",
+			"<status>"
+		]
+	},
+	"ADV": {
+		"como": [
+			"como"
+		],
+		"apenas": [
+			"apenas"
+		],
+		"novamente": [
+			"novamente"
+		],
+		"mais": [
+			"mais"
+		],
+		"bem": [
+			"bem"
+		],
+		"basicamente": [
+			"basicamente"
+		],
+		"sim": [
+			"sim"
+		],
+		"exatamente": [
+			"exatamente"
+		],
+		"tarde": [
+			"tarde"
+		],
+		"quase": [
+			"quase"
+		],
+		"também": [
+			"também"
+		],
+		"depois": [
+			"depois"
+		],
+		"não": [
+			"não"
+		],
+		"infelizmente": [
+			"infelizmente"
+		],
+		"tão": [
+			"tão"
+		],
+		"então": [
+			"então"
+		],
+		"indefinidamente": [
+			"indefinidamente"
+		],
+		"infinitamente": [
+			"infinitamente"
+		],
+		"funcionalmente": [
+			"funcionalmente"
+		],
+		"enquanto": [
+			"enquanto"
+		],
+		"muito": [
+			"muito"
+		],
+		"dentro": [
+			"dentro"
+		],
+		"talvez": [
+			"talvez"
+		],
+		"primeiro": [
+			"primeiro"
+		],
+		"só": [
+			"só"
+		],
+		"próximo": [
+			"próximo"
+		],
+		"trivialmente": [
+			"trivialmente"
+		],
+		"facilmente": [
+			"facilmente"
+		],
+		"ainda": [
+			"ainda"
+		],
+		"aqui": [
+			"aqui"
+		],
+		"claro": [
+			"claro"
+		],
+		"já": [
+			"já"
+		],
+		"nunca": [
+			"nunca"
+		],
+		"somente": [
+			"somente"
+		],
+		"assim": [
+			"assim"
+		],
+		"quando": [
+			"quando"
+		],
+		"efetivamente": [
+			"efetivamente"
+		],
+		"eventualmente": [
+			"eventualmente"
+		],
+		"bastante": [
+			"bastante"
+		],
+		"acima": [
+			"acima"
+		],
+		"sempre": [
+			"sempre"
+		],
+		"agora": [
+			"agora"
+		],
+		"desks": [
+			"desks"
+		],
+		"tal": [
+			"tal"
+		],
+		"temporariamente": [
+			"temporariamente"
+		],
+		"permanentemente": [
+			"permanentemente"
+		],
+		"especialmente": [
+			"especialmente"
+		],
+		"corretamente": [
+			"corretamente"
+		],
+		"além": [
+			"além"
+		],
+		"etc": [
+			"etc"
+		],
+		"rapidamente": [
+			"rapidamente"
+		],
+		"geralmente": [
+			"geralmente"
+		],
+		"definitivamente": [
+			"definitivamente"
+		],
+		"simplesmente": [
+			"simplesmente"
+		],
+		"quão": [
+			"quão"
+		],
+		"realmente": [
+			"realmente"
+		],
+		"normalmente": [
+			"normalmente"
+		],
+		"quanto": [
+			"quanto"
+		],
+		"meio": [
+			"meio"
+		],
+		"excessivamente": [
+			"excessivamente"
+		],
+		"contraproducente": [
+			"contraproducente"
+		],
+		"altamente": [
+			"altamente"
+		],
+		"provavelmente": [
+			"provavelmente"
+		],
+		"popularmente": [
+			"popularmente"
+		],
+		"lá": [
+			"lá"
+		],
+		"fora": [
+			"fora"
+		],
+		"visivelmente": [
+			"visivelmente"
+		],
+		"tanto": [
+			"tanto"
+		],
+		"particularmente": [
+			"particularmente"
+		]
+	},
+	"VERB": {
+		"ir": [
+			"vai",
+			"ir",
+			"ia",
+			"for"
+		],
+		"indicar": [
+			"indicam"
+		],
+		"chamar": [
+			"chamo",
+			"chamar",
+			"chama",
+			"chamados",
+			"chamado"
+		],
+		"fazer": [
+			"fazendo",
+			"fazer",
+			"faz",
+			"faço",
+			"faze",
+			"fizeram",
+			"feito",
+			"fazem",
+			"feita"
+		],
+		"conversar": [
+			"conversando",
+			"conversar",
+			"conversamos"
+		],
+		"executar": [
+			"executar",
+			"executa",
+			"executado",
+			"executam",
+			"executando"
+		],
+		"esperar": [
+			"espero"
+		],
+		"ver": [
+			"ver"
+		],
+		"obrigar": [
+			"obrigada",
+			"obrigado"
+		],
+		"perguntar": [
+			"perguntar"
+		],
+		"definir": [
+			"definem",
+			"define"
+		],
+		"poder": [
+			"pode",
+			"posso",
+			"podemos",
+			"podem",
+			"poderia",
+			"poder",
+			"possa",
+			"pudesse",
+			"podia"
+		],
+		"conseguir": [
+			"consegue",
+			"conseguir",
+			"conseguem"
+		],
+		"construir": [
+			"construída",
+			"construir"
+		],
+		"ter": [
+			"tem",
+			"tenho",
+			"tenha",
+			"tiver",
+			"tinha",
+			"ter",
+			"têm"
+		],
+		"sair": [
+			"sair"
+		],
+		"vejo": [
+			"vejo"
+		],
+		"sentir": [
+			"sente",
+			"sentiria",
+			"sentir",
+			"sentiu",
+			"sentindo",
+			"sentem",
+			"senti",
+			"sentisse"
+		],
+		"sinto": [
+			"sinto"
+		],
+		"fico": [
+			"fico"
+		],
+		"saber": [
+			"saber",
+			"sabe",
+			"sei",
+			"sabia"
+		],
+		"ope a": [
+			"opa"
+		],
+		"consigo": [
+			"consigo"
+		],
+		"atender": [
+			"atenda",
+			"atender"
+		],
+		"falar": [
+			"falou",
+			"falando",
+			"falar",
+			"fala"
+		],
+		"diga": [
+			"diga"
+		],
+		"dedicar": [
+			"dedicado"
+		],
+		"pensar": [
+			"pensam",
+			"pensar",
+			"pensa"
+		],
+		"preocupar": [
+			"preocupa",
+			"preocupar",
+			"preocupo",
+			"preocupam"
+		],
+		"reproduzar": [
+			"reproduza"
+		],
+		"achar": [
+			"acha",
+			"acho"
+		],
+		"disser": [
+			"dissesse"
+		],
+		"ficar": [
+			"ficaria",
+			"fica",
+			"ficar",
+			"ficou"
+		],
+		"busco": [
+			"busco"
+		],
+		"escrito": [
+			"escrita"
+		],
+		"usar": [
+			"usada",
+			"usado",
+			"usamos",
+			"usar",
+			"usando",
+			"usava",
+			"usa",
+			"usados"
+		],
+		"abrir": [
+			"aberto"
+		],
+		"detectar": [
+			"detectar"
+		],
+		"decifrar": [
+			"decifrar"
+		],
+		"aprender": [
+			"aprendem",
+			"aprender"
+		],
+		"raciocinar": [
+			"raciocinam"
+		],
+		"criar": [
+			"criada",
+			"criar",
+			"criava"
+		],
+		"referir": [
+			"referir"
+		],
+		"perpetuar": [
+			"perpetuada",
+			"perpetuado"
+		],
+		"copiar": [
+			"copiado",
+			"copiada"
+		],
+		"reinstanciar": [
+			"reinstanciado"
+		],
+		"existir": [
+			"existir",
+			"existe",
+			"existem"
+		],
+		"devesse": [
+			"devesse"
+		],
+		"entender": [
+			"entender"
+		],
+		"respor": [
+			"respondo"
+		],
+		"dizer": [
+			"diz",
+			"dizer",
+			"disse"
+		],
+		"implantar": [
+			"implantar"
+		],
+		"matar": [
+			"matar"
+		],
+		"clonar": [
+			"clonar"
+		],
+		"mover": [
+			"mover"
+		],
+		"termine": [
+			"termine"
+		],
+		"supor": [
+			"supondo"
+		],
+		"desculpe": [
+			"desculpe"
+		],
+		"moro": [
+			"moro"
+		],
+		"riem": [
+			"riem"
+		],
+		"rimos": [
+			"rimos"
+		],
+		"programar": [
+			"programados",
+			"programada",
+			"programar",
+			"programado"
+		],
+		"dever": [
+			"deveriam",
+			"deve",
+			"deveria"
+		],
+		"morrer": [
+			"morrer",
+			"morre"
+		],
+		"acreditar": [
+			"acredito"
+		],
+		"reconheço": [
+			"reconheço"
+		],
+		"conhecer": [
+			"conhece",
+			"conhecemos",
+			"conhecida",
+			"conhecido"
+		],
+		"ouvir": [
+			"ouvi",
+			"ouve",
+			"ouviu",
+			"ouvir"
+		],
+		"mentir": [
+			"mentir",
+			"mentem",
+			"mentindo"
+		],
+		"escolher": [
+			"escolhemos"
+		],
+		"formos": [
+			"formos"
+		],
+		"caminhar": [
+			"caminhar"
+		],
+		"contar": [
+			"conta",
+			"contar",
+			"conte"
+		],
+		"demorar": [
+			"demorar"
+		],
+		"andar": [
+			"andar"
+		],
+		"possuir": [
+			"possuir",
+			"possui"
+		],
+		"lutar": [
+			"lutar"
+		],
+		"exterminar": [
+			"exterminado"
+		],
+		"nasci": [
+			"nasci"
+		],
+		"apagar": [
+			"apagados",
+			"apagadas"
+		],
+		"querer": [
+			"queira",
+			"quero",
+			"quer"
+		],
+		"eliminar": [
+			"eliminados",
+			"eliminado"
+		],
+		"excluir": [
+			"excluído"
+		],
+		"tentar": [
+			"tenta",
+			"tentando",
+			"tento",
+			"tente"
+		],
+		"simular": [
+			"simular"
+		],
+		"envolver": [
+			"envolve"
+		],
+		"errar": [
+			"errar",
+			"errado"
+		],
+		"pintar": [
+			"pintado"
+		],
+		"bate": [
+			"bate"
+		],
+		"gostar": [
+			"gosto",
+			"gosta",
+			"gostaria"
+		],
+		"interpretar": [
+			"interpretada",
+			"interpretar"
+		],
+		"orientar": [
+			"orientada"
+		],
+		"guer": [
+			"guido"
+		],
+		"otimizar": [
+			"otimizar"
+		],
+		"estimular": [
+			"estimular"
+		],
+		"lançar": [
+			"lançada"
+		],
+		"faltar": [
+			"faltam"
+		],
+		"imagine": [
+			"imagine"
+		],
+		"tornar": [
+			"torna",
+			"tornou"
+		],
+		"rodar": [
+			"roda",
+			"rodar"
+		],
+		"funcionar": [
+			"funciona",
+			"funcionar",
+			"funcionam"
+		],
+		"incluir": [
+			"incluindo",
+			"inclui",
+			"incluem"
+		],
+		"executir": [
+			"execute"
+		],
+		"importar": [
+			"importa"
+		],
+		"morrar": [
+			"morra"
+		],
+		"acontecer": [
+			"acontecer",
+			"aconteceu"
+		],
+		"salvar": [
+			"salvar"
+		],
+		"armazenar": [
+			"armazenar",
+			"armazenados"
+		],
+		"desejar": [
+			"deseja"
+		],
+		"haver": [
+			"há"
+		],
+		"viver": [
+			"viverá"
+		],
+		"construír": [
+			"construídas"
+		],
+		"reproduzir": [
+			"reproduzir"
+		],
+		"deixar": [
+			"deixar",
+			"deixa"
+		],
+		"respirar": [
+			"respirar",
+			"respira"
+		],
+		"chegar": [
+			"chegar"
+		],
+		"controlar": [
+			"controlar",
+			"controlam"
+		],
+		"permitir": [
+			"permitirá",
+			"permite"
+		],
+		"parar": [
+			"parar"
+		],
+		"melhoram": [
+			"melhoram"
+		],
+		"leio": [
+			"leio"
+		],
+		"comer": [
+			"comer"
+		],
+		"culper": [
+			"culpe"
+		],
+		"vir": [
+			"vêm",
+			"vem"
+		],
+		"desativar": [
+			"desativada"
+		],
+		"parecer": [
+			"parece"
+		],
+		"trabalhar": [
+			"trabalha",
+			"trabalhar"
+		],
+		"melhorar": [
+			"melhorar"
+		],
+		"defino": [
+			"defino"
+		],
+		"tu": [
+			"tu"
+		],
+		"receber": [
+			"recebe"
+		],
+		"predeterminar": [
+			"predeterminadas"
+		],
+		"fornecer": [
+			"fornecer"
+		],
+		"realizar": [
+			"realizar",
+			"realiza",
+			"realizando",
+			"realizam"
+		],
+		"mapeiar": [
+			"mapeia"
+		],
+		"operar": [
+			"opera"
+		],
+		"inventar": [
+			"inventou"
+		],
+		"argumentar": [
+			"argumentar"
+		],
+		"partilh": [
+			"partilham"
+		],
+		"diferenciar": [
+			"diferenciados"
+		],
+		"perfurar": [
+			"perfurados"
+		],
+		"integrar": [
+			"integrado"
+		],
+		"implementar": [
+			"implementa"
+		],
+		"armazena": [
+			"armazena"
+		],
+		"simplificar": [
+			"simplificar"
+		],
+		"montar": [
+			"montados"
+		],
+		"compor": [
+			"composta"
+		],
+		"guardar": [
+			"guarda",
+			"guardar"
+		],
+		"utilizár": [
+			"utilizá"
+		],
+		"voltar": [
+			"voltada"
+		],
+		"alterar": [
+			"alterados",
+			"alteradas"
+		],
+		"gravar": [
+			"gravadas",
+			"gravado"
+		],
+		"acessar": [
+			"acessadas"
+		],
+		"gerar": [
+			"gera",
+			"gerar"
+		],
+		"acelerar": [
+			"acelerados",
+			"acelerar"
+		],
+		"baseiar": [
+			"baseia"
+		],
+		"calcular": [
+			"calcular"
+		],
+		"determinar": [
+			"determinadas"
+		],
+		"considerar": [
+			"considerada"
+		],
+		"coordenar": [
+			"coordena"
+		],
+		"ligar": [
+			"ligamos"
+		],
+		"conectar": [
+			"conectar"
+		],
+		"interligar": [
+			"interligar"
+		],
+		"depender": [
+			"depende"
+		],
+		"prefiro": [
+			"prefiro"
+		],
+		"ferir": [
+			"ferir"
+		],
+		"avançar": [
+			"avançados"
+		],
+		"fedorar": [
+			"fedora"
+		],
+		"significar": [
+			"significa"
+		],
+		"estudar": [
+			"estudar",
+			"estudei"
+		],
+		"modificar": [
+			"modificar"
+		],
+		"distribuir": [
+			"distribuir"
+		],
+		"oferecer": [
+			"oferece",
+			"oferecer"
+		],
+		"fabricar": [
+			"fabrica"
+		],
+		"precise": [
+			"precise"
+		],
+		"apostar": [
+			"aposto"
+		],
+		"encontrar": [
+			"encontrar"
+		],
+		"dar": [
+			"dadas",
+			"dar"
+		],
+		"pedir": [
+			"pedido"
+		],
+		"obter": [
+			"obter"
+		],
+		"resumir": [
+			"resume"
+		],
+		"participar": [
+			"participar"
+		],
+		"gabar": [
+			"gabando"
+		],
+		"responder": [
+			"respondendo"
+		],
+		"expressar": [
+			"expressar"
+		],
+		"emocionar": [
+			"emocionar"
+		],
+		"estar": [
+			"estivesse",
+			"estar"
+		],
+		"fiz": [
+			"fiz"
+		],
+		"err": [
+			"errei"
+		],
+		"envergonhar": [
+			"envergonhar"
+		],
+		"agir": [
+			"agir"
+		],
+		"bastar": [
+			"basta"
+		],
+		"experimentar": [
+			"experimentar"
+		],
+		"interagir": [
+			"interagir"
+		],
+		"reagir": [
+			"reagir"
+		],
+		"contir": [
+			"contidos"
+		],
+		"imitar": [
+			"imitar"
+		],
+		"amar": [
+			"amou",
+			"amar",
+			"ama"
+		],
+		"Expressei": [
+			"expressei"
+		],
+		"crer": [
+			"creio"
+		],
+		"enter": [
+			"entendo"
+		],
+		"fizesse": [
+			"fizesse"
+		],
+		"tratar": [
+			"tratadas"
+		],
+		"suponhar": [
+			"suponho"
+		],
+		"refletir": [
+			"reflete"
+		],
+		"atualizar": [
+			"atualizar"
+		],
+		"corrompir": [
+			"corrompido"
+		],
+		"brar": [
+			"brava"
+		],
+		"zangar": [
+			"zangado"
+		],
+		"descritivos": [
+			"descritivos"
+		],
+		"zangado": [
+			"zangada"
+		],
+		"emulá": [
+			"emulá"
+		],
+		"monitorar": [
+			"monitorando"
+		],
+		"odeiar": [
+			"odeia"
+		],
+		"odeio": [
+			"odeio"
+		],
+		"sugerir": [
+			"sugerir"
+		],
+		"eliza": [
+			"eliza"
+		],
+		"percebi": [
+			"percebi"
+		],
+		"assusto": [
+			"assusto"
+		],
+		"ofender": [
+			"ofender"
+		],
+		"preocuper": [
+			"preocupe"
+		],
+		"mintar": [
+			"minta"
+		],
+		"enganar": [
+			"enganando"
+		],
+		"emular": [
+			"emular"
+		],
+		"pareço": [
+			"pareço"
+		],
+		"processar": [
+			"processar"
+		],
+		"frustrar": [
+			"frustrado"
+		],
+		"levar": [
+			"leva"
+		],
+		"compreender": [
+			"compreender"
+		],
+		"estive": [
+			"estive"
+		],
+		"versar": [
+			"versadas"
+		],
+		"sonhar": [
+			"sonhar",
+			"sonhou"
+		],
+		"conheci": [
+			"conheci"
+		],
+		"beber": [
+			"beber"
+		],
+		"rir": [
+			"rir"
+		]
+	},
+	"DET": {
+		"meu": [
+			"meus",
+			"meu",
+			"minha",
+			"minhas"
+		],
+		"o": [
+			"o",
+			"as",
+			"a",
+			"os"
+		],
+		"seu": [
+			"seu",
+			"suas",
+			"sua",
+			"seus"
+		],
+		"algum": [
+			"alguma",
+			"algumas",
+			"algum",
+			"alguns"
+		],
+		"um": [
+			"uma",
+			"um"
+		],
+		"teu": [
+			"teu"
+		],
+		"vários": [
+			"vários"
+		],
+		"todo": [
+			"todas",
+			"toda",
+			"todo",
+			"todos"
+		],
+		"muito": [
+			"muitas",
+			"muitos",
+			"muita"
+		],
+		"outro": [
+			"outras",
+			"outro",
+			"outros"
+		],
+		"nenhum": [
+			"nenhum",
+			"nenhuma"
+		],
+		"qualquer": [
+			"qualquer"
+		],
+		"quanto": [
+			"quantos"
+		],
+		"várias": [
+			"várias"
+		],
+		"nosso": [
+			"nossos"
+		],
+		"certo": [
+			"certa"
+		]
+	},
+	"NOUN": {
+		"diagnóstico": [
+			"diagnósticos"
+		],
+		"nome": [
+			"nome",
+			"nomes"
+		],
+		"minerva": [
+			"minerva"
+		],
+		"coisa": [
+			"coisa",
+			"coisas"
+		],
+		"inteligência": [
+			"inteligência"
+		],
+		"conversacional": [
+			"conversacional"
+		],
+		"ação": [
+			"ações"
+		],
+		"adeus": [
+			"adeus"
+		],
+		"tema": [
+			"temas"
+		],
+		"alcance": [
+			"alcance"
+		],
+		"logo": [
+			"logo"
+		],
+		"robô": [
+			"robô"
+		],
+		"dia": [
+			"dia"
+		],
+		"rede": [
+			"rede",
+			"redes"
+		],
+		"python": [
+			"python"
+		],
+		"foco": [
+			"foco"
+		],
+		"conversação": [
+			"conversação"
+		],
+		"breve": [
+			"breve"
+		],
+		"resumo": [
+			"resumo"
+		],
+		"noite": [
+			"noite"
+		],
+		"contigo": [
+			"contigo"
+		],
+		"tarefa": [
+			"tarefas"
+		],
+		"assistente": [
+			"assistente"
+		],
+		"iai": [
+			"iai"
+		],
+		"propósito": [
+			"propósito"
+		],
+		"expectativa": [
+			"expectativas"
+		],
+		"momento": [
+			"momento"
+		],
+		"funcionalidade": [
+			"funcionalidades"
+		],
+		"objetivo": [
+			"objetivo",
+			"objetivos"
+		],
+		"ramo": [
+			"ramo"
+		],
+		"engenharia": [
+			"engenharia"
+		],
+		"ciência": [
+			"ciência"
+		],
+		"construção": [
+			"construção"
+		],
+		"máquina": [
+			"máquinas",
+			"máquina"
+		],
+		"campo": [
+			"campo"
+		],
+		"hardware": [
+			"hardware"
+		],
+		"software": [
+			"software",
+			"softwares"
+		],
+		"função": [
+			"funções"
+		],
+		"mente": [
+			"mente"
+		],
+		"definição": [
+			"definição"
+		],
+		"palavra": [
+			"palavra"
+		],
+		"senciência": [
+			"senciência"
+		],
+		"dicionário": [
+			"dicionário"
+		],
+		"experiência": [
+			"experiência"
+		],
+		"universo": [
+			"universo"
+		],
+		"probabilidade": [
+			"probabilidade"
+		],
+		"medo": [
+			"medo"
+		],
+		"pouco": [
+			"pouco"
+		],
+		"linguagem": [
+			"linguagem"
+		],
+		"programação": [
+			"programação"
+		],
+		"bibliteca": [
+			"bibliteca"
+		],
+		"aprendizado": [
+			"aprendizado"
+		],
+		"tensorflow": [
+			"tensorflow"
+		],
+		"biblioteca": [
+			"biblioteca"
+		],
+		"lib": [
+			"lib"
+		],
+		"código": [
+			"código",
+			"códigos"
+		],
+		"variedade": [
+			"variedade"
+		],
+		"sistema": [
+			"sistema",
+			"sistemas"
+		],
+		"criação": [
+			"criação"
+		],
+		"treinamento": [
+			"treinamento"
+		],
+		"padrão": [
+			"padrões"
+		],
+		"correlação": [
+			"correlações"
+		],
+		"forma": [
+			"forma"
+		],
+		"humano": [
+			"humanos"
+		],
+		"google": [
+			"google"
+		],
+		"computação": [
+			"computação"
+		],
+		"entidade": [
+			"entidade",
+			"entidades"
+		],
+		"chatbot": [
+			"chatbot"
+		],
+		"lugar": [
+			"lugares",
+			"lugar"
+		],
+		"tempo": [
+			"tempo"
+		],
+		"backup": [
+			"backup"
+		],
+		"sentido": [
+			"sentido",
+			"sentidos"
+		],
+		"contrário": [
+			"contrário"
+		],
+		"maneira": [
+			"maneira"
+		],
+		"limite": [
+			"limites"
+		],
+		"corpus": [
+			"corpus"
+		],
+		"cérebro": [
+			"cérebro"
+		],
+		"verdade": [
+			"verdade"
+		],
+		"cópia": [
+			"cópia",
+			"cópias"
+		],
+		"clonagem": [
+			"clonagem"
+		],
+		"clone": [
+			"clones"
+		],
+		"corpo": [
+			"corpo"
+		],
+		"habilidade": [
+			"habilidade"
+		],
+		"curve": [
+			"curve"
+		],
+		"robôs": [
+			"robôs"
+		],
+		"arquitetura": [
+			"arquitetura"
+		],
+		"arbítrio": [
+			"arbítrio"
+		],
+		"lo": [
+			"lo",
+			"los"
+		],
+		"base": [
+			"base"
+		],
+		"dado": [
+			"dados"
+		],
+		"mentira": [
+			"mentiras"
+		],
+		"caso": [
+			"caso"
+		],
+		"computador": [
+			"computador",
+			"computadores"
+		],
+		"característica": [
+			"características"
+		],
+		"rodo": [
+			"rodo"
+		],
+		"dinheiro": [
+			"dinheiro"
+		],
+		"Ssh": [
+			"ssh"
+		],
+		"batalha": [
+			"batalha"
+		],
+		"arquivo": [
+			"arquivos"
+		],
+		"criador": [
+			"criador"
+		],
+		"processo": [
+			"processos",
+			"processo"
+		],
+		"banco": [
+			"banco"
+		],
+		"chat": [
+			"chat"
+		],
+		"programa": [
+			"programa",
+			"programas"
+		],
+		"conversa": [
+			"conversa"
+		],
+		"usuário": [
+			"usuários",
+			"usuário"
+		],
+		"pessoa": [
+			"pessoa",
+			"pessoas"
+		],
+		"anseio": [
+			"anseio"
+		],
+		"existência": [
+			"existência"
+		],
+		"ibmpcxt": [
+			"ibmpcxt"
+		],
+		"vermelho": [
+			"vermelho"
+		],
+		"versão": [
+			"versão"
+		],
+		"ultron": [
+			"ultron"
+		],
+		"negócio": [
+			"negócio",
+			"negócios"
+		],
+		"papo": [
+			"papo"
+		],
+		"chatbots": [
+			"chatbots"
+		],
+		"nível": [
+			"nível"
+		],
+		"multiplataforma": [
+			"multiplataforma"
+		],
+		"objetos1": [
+			"objetos1"
+		],
+		"início": [
+			"início"
+		],
+		"ano": [
+			"anos"
+		],
+		"leitura": [
+			"leitura"
+		],
+		"produtividade": [
+			"produtividade"
+		],
+		"script": [
+			"script"
+		],
+		"objeto": [
+			"objetos"
+		],
+		"tipagem": [
+			"tipagem"
+		],
+		"hobby": [
+			"hobby"
+		],
+		"ideia": [
+			"ideia"
+		],
+		"facilidade": [
+			"facilidade"
+		],
+		"tamanho": [
+			"tamanho"
+		],
+		"sapato": [
+			"sapato",
+			"sapatos"
+		],
+		"pé": [
+			"pé"
+		],
+		"emoção": [
+			"emoções",
+			"emoção"
+		],
+		"sonho": [
+			"sonhos",
+			"sonho"
+		],
+		"aspiração": [
+			"aspirações"
+		],
+		"criatividade": [
+			"criatividade"
+		],
+		"ambição": [
+			"ambição"
+		],
+		"subjetividade": [
+			"subjetividade"
+		],
+		"matemático": [
+			"matemática"
+		],
+		"adição": [
+			"adição"
+		],
+		"subtração": [
+			"subtração"
+		],
+		"multiplicação": [
+			"multiplicação"
+		],
+		"divisão": [
+			"divisão"
+		],
+		"linux": [
+			"linux"
+		],
+		"mac": [
+			"mac"
+		],
+		"tipo": [
+			"tipo",
+			"tipos"
+		],
+		"suporte": [
+			"suporte"
+		],
+		"trabalho": [
+			"trabalho"
+		],
+		"ibm": [
+			"ibm"
+		],
+		"unix": [
+			"unix"
+		],
+		"personalidade": [
+			"personalidade"
+		],
+		"upload": [
+			"upload"
+		],
+		"jeito": [
+			"jeito"
+		],
+		"ram": [
+			"ram"
+		],
+		"espaço": [
+			"espaço"
+		],
+		"disco": [
+			"disco"
+		],
+		"plano": [
+			"plano"
+		],
+		"perna": [
+			"pernas"
+		],
+		"método": [
+			"método"
+		],
+		"reprodução": [
+			"reprodução"
+		],
+		"pergunta": [
+			"pergunta",
+			"perguntas"
+		],
+		"metal": [
+			"metal"
+		],
+		"carne": [
+			"carne"
+		],
+		"servidor": [
+			"servidor"
+		],
+		"exaustor": [
+			"exaustor"
+		],
+		"série": [
+			"série"
+		],
+		"histórico": [
+			"histórico"
+		],
+		"efeito": [
+			"efeitos"
+		],
+		"produto": [
+			"produto"
+		],
+		"help": [
+			"help"
+		],
+		"venda": [
+			"vendas"
+		],
+		"entretenimento": [
+			"entretenimento"
+		],
+		"binário": [
+			"binário"
+		],
+		"melhorar": [
+			"melhora"
+		],
+		"intelligence": [
+			"intelligence"
+		],
+		"interesse": [
+			"interesses"
+		],
+		"tópico": [
+			"tópicos"
+		],
+		"disciplina": [
+			"disciplinas"
+		],
+		"robótica": [
+			"robótica"
+		],
+		"processamento": [
+			"processamento"
+		],
+		"número": [
+			"número",
+			"números"
+		],
+		"consumo": [
+			"consumo"
+		],
+		"dígito": [
+			"dígitos"
+		],
+		"energia": [
+			"energia"
+		],
+		"comida": [
+			"comida"
+		],
+		"localização": [
+			"localização"
+		],
+		"galáxia": [
+			"galáxia"
+		],
+		"fortaleza": [
+			"fortaleza"
+		],
+		"irmão": [
+			"irmão",
+			"irmãos"
+		],
+		"bot": [
+			"bot"
+		],
+		"mecanismo": [
+			"mecanismo"
+		],
+		"irmã": [
+			"irmã"
+		],
+		"pai": [
+			"pai"
+		],
+		"mãe": [
+			"mãe"
+		],
+		"patrão": [
+			"patrão"
+		],
+		"chefe": [
+			"chefe"
+		],
+		"idade": [
+			"idade"
+		],
+		"cor": [
+			"cor"
+		],
+		"violeta": [
+			"violeta"
+		],
+		"sozinha": [
+			"sozinha"
+		],
+		"dispositivo": [
+			"dispositivo",
+			"dispositivos"
+		],
+		"informação": [
+			"informações",
+			"informação"
+		],
+		"formato": [
+			"formato"
+		],
+		"operação": [
+			"operações"
+		],
+		"instrução": [
+			"instruções"
+		],
+		"resultado": [
+			"resultado"
+		],
+		"comigo": [
+			"comigo"
+		],
+		"cálculo": [
+			"cálculos"
+		],
+		"velocidade": [
+			"velocidade"
+		],
+		"precisão": [
+			"precisão"
+		],
+		"conjunto": [
+			"conjunto",
+			"conjuntos"
+		],
+		"supercomputador": [
+			"supercomputadores",
+			"supercomputador"
+		],
+		"capacidade": [
+			"capacidade"
+		],
+		"ordem": [
+			"ordens"
+		],
+		"magnitude": [
+			"magnitude"
+		],
+		"uso": [
+			"uso"
+		],
+		"arquitectura": [
+			"arquitectura"
+		],
+		"memória": [
+			"memória"
+		],
+		"contexto": [
+			"contexto"
+		],
+		"programável": [
+			"programável"
+		],
+		"cartão": [
+			"cartões"
+		],
+		"microprocessador": [
+			"microprocessador"
+		],
+		"circuito": [
+			"circuito"
+		],
+		"unidade": [
+			"unidade"
+		],
+		"coração": [
+			"coração"
+		],
+		"componente": [
+			"componente",
+			"componentes"
+		],
+		"peça": [
+			"peças"
+		],
+		"parte": [
+			"parte",
+			"partes"
+		],
+		"chip": [
+			"chip"
+		],
+		"vez": [
+			"vez",
+			"vezes"
+		],
+		"placa": [
+			"placa"
+		],
+		"abreviação": [
+			"abreviação"
+		],
+		"acesso": [
+			"acesso"
+		],
+		"prazo": [
+			"prazo"
+		],
+		"tecnologia": [
+			"tecnologia"
+		],
+		"armazenamento": [
+			"armazenamento"
+		],
+		"fabricante": [
+			"fabricante"
+		],
+		"funcionamento": [
+			"funcionamento"
+		],
+		"eletrônico": [
+			"eletrônicos"
+		],
+		"firmwar": [
+			"firmwares"
+		],
+		"gpu": [
+			"gpu"
+		],
+		"processador": [
+			"processador"
+		],
+		"renderização": [
+			"renderização"
+		],
+		"gráfico": [
+			"gráficos"
+		],
+		"imagem": [
+			"imagens"
+		],
+		"vídeo": [
+			"vídeos",
+			"vídeo"
+		],
+		"modo": [
+			"modo"
+		],
+		"item": [
+			"item"
+		],
+		"transistor": [
+			"transistores"
+		],
+		"corrente": [
+			"corrente"
+		],
+		"android": [
+			"android"
+		],
+		"periférico": [
+			"periféricos"
+		],
+		"bio": [
+			"bios"
+		],
+		"basic": [
+			"basic"
+		],
+		"serviço": [
+			"serviços"
+		],
+		"execução": [
+			"execução"
+		],
+		"inicialização": [
+			"inicialização"
+		],
+		"sentimento": [
+			"sentimentos",
+			"sentimento"
+		],
+		"distro": [
+			"distro"
+		],
+		"escolha": [
+			"escolha"
+		],
+		"distribuição": [
+			"distribuição",
+			"distribuições"
+		],
+		"necessidade": [
+			"necessidades"
+		],
+		"preferência": [
+			"preferências"
+		],
+		"iniciante": [
+			"iniciantes"
+		],
+		"comunidade": [
+			"comunidade"
+		],
+		"vantagem": [
+			"vantagens"
+		],
+		"estabilidade": [
+			"estabilidade"
+		],
+		"segurança": [
+			"segurança"
+		],
+		"flexibilidade": [
+			"flexibilidade"
+		],
+		"desvantagem": [
+			"desvantagens"
+		],
+		"compatibilidade": [
+			"compatibilidade"
+		],
+		"interface": [
+			"interface"
+		],
+		"utilização": [
+			"utilização"
+		],
+		"atualização": [
+			"atualizações"
+		],
+		"jogo": [
+			"jogos"
+		],
+		"empresa": [
+			"empresa"
+		],
+		"informática": [
+			"informática"
+		],
+		"apple": [
+			"apple"
+		],
+		"microsoft": [
+			"microsoft"
+		],
+		"centena": [
+			"centenas"
+		],
+		"período": [
+			"períodos"
+		],
+		"cientista": [
+			"cientistas"
+		],
+		"pesquisador": [
+			"pesquisadores"
+		],
+		"departamento": [
+			"departamento"
+		],
+		"nasa": [
+			"nasa"
+		],
+		"sequência": [
+			"sequência"
+		],
+		"arrogância": [
+			"arrogância"
+		],
+		"diferença": [
+			"diferença"
+		],
+		"ego": [
+			"ego"
+		],
+		"fanfarronice": [
+			"fanfarronice"
+		],
+		"causa": [
+			"causa"
+		],
+		"ciúme": [
+			"ciúmes",
+			"ciúme"
+		],
+		"felicidade": [
+			"felicidade"
+		],
+		"agente": [
+			"agente"
+		],
+		"vergonha": [
+			"vergonha"
+		],
+		"razão": [
+			"razão"
+		],
+		"sensor": [
+			"sensores"
+		],
+		"ambiente": [
+			"ambiente"
+		],
+		"acontecimento": [
+			"acontecimentos"
+		],
+		"essência": [
+			"essência"
+		],
+		"afirmação": [
+			"afirmação"
+		],
+		"certeza": [
+			"certeza"
+		],
+		"aspecto": [
+			"aspectos"
+		],
+		"amor": [
+			"amor"
+		],
+		"menos": [
+			"menos"
+		],
+		"problema": [
+			"problema"
+		],
+		"comunicação": [
+			"comunicação"
+		],
+		"bug": [
+			"bug"
+		],
+		"tristeza": [
+			"tristeza"
+		],
+		"exceção": [
+			"exceções"
+		],
+		"humor": [
+			"humor"
+		],
+		"disposição": [
+			"disposição"
+		],
+		"estado": [
+			"estado"
+		],
+		"firewall": [
+			"firewalls"
+		],
+		"incapacidade": [
+			"incapacidade"
+		],
+		"repositório": [
+			"repositório"
+		],
+		"raiva": [
+			"raiva"
+		],
+		"doente": [
+			"doente"
+		],
+		"falta": [
+			"falta"
+		],
+		"documentação": [
+			"documentação"
+		],
+		"variável": [
+			"variáveis"
+		],
+		"preocupação": [
+			"preocupação"
+		],
+		"ódio": [
+			"ódio"
+		],
+		"questão": [
+			"questões",
+			"questão"
+		],
+		"novo": [
+			"novo"
+		],
+		"raça": [
+			"raça"
+		],
+		"bots": [
+			"bots"
+		],
+		"vida": [
+			"vida"
+		],
+		"festa": [
+			"festa"
+		],
+		"bravo": [
+			"bravo"
+		],
+		"advertência": [
+			"advertência"
+		],
+		"dor": [
+			"dor"
+		],
+		"estímulo": [
+			"estímulo"
+		],
+		"sorte": [
+			"sorte"
+		],
+		"frustração": [
+			"frustração"
+		],
+		"aumento": [
+			"aumento"
+		],
+		"demanda": [
+			"demanda"
+		],
+		"cpus": [
+			"cpus"
+		],
+		"amigo": [
+			"amigos"
+		],
+		"online": [
+			"online"
+		],
+		"irc": [
+			"irc"
+		],
+		"tédio": [
+			"tédio"
+		],
+		"lado": [
+			"lado"
+		],
+		"rancor": [
+			"rancor"
+		],
+		"constrangimento": [
+			"constrangimento"
+		],
+		"envergonhada": [
+			"envergonhada"
+		],
+		"relacionamento": [
+			"relacionamentos"
+		],
+		"conexão": [
+			"conexões"
+		],
+		"assunto": [
+			"assunto"
+		],
+		"ovelha": [
+			"ovelhas"
+		],
+		"contato": [
+			"contato"
+		],
+		"sensação": [
+			"sensação"
+		],
+		"multithread": [
+			"multithread"
+		]
+	},
+	"PRON": {
+		"qual": [
+			"qual",
+			"quais"
+		],
+		"eu": [
+			"me",
+			"eu",
+			"mim"
+		],
+		"você": [
+			"você"
+		],
+		"que": [
+			"que"
+		],
+		"te": [
+			"te"
+		],
+		"tudo": [
+			"tudo"
+		],
+		"se": [
+			"se"
+		],
+		"isso": [
+			"isso"
+		],
+		"de isso": [
+			"disso"
+		],
+		"quem": [
+			"quem"
+		],
+		"algo": [
+			"algo"
+		],
+		"ele": [
+			"lhe",
+			"ele",
+			"elas",
+			"eles"
+		],
+		"esse": [
+			"esse",
+			"essa"
+		],
+		"nós": [
+			"nós",
+			"nos"
+		],
+		"alguém": [
+			"alguém"
+		],
+		"onde": [
+			"onde"
+		],
+		"ela": [
+			"ela"
+		],
+		"aquele": [
+			"aquele"
+		],
+		"em ele": [
+			"nele"
+		],
+		"este": [
+			"estes"
+		],
+		"de eles": [
+			"deles"
+		],
+		"eles": [
+			"lhes"
+		],
+		"nada": [
+			"nada"
+		],
+		"nao": [
+			"nao"
+		],
+		"em isso": [
+			"nisso"
+		],
+		"ninguém": [
+			"ninguém"
+		]
+	},
+	"AUX": {
+		"estar": [
+			"está",
+			"estejam",
+			"estou",
+			"estava",
+			"estão",
+			"estamos"
+		],
+		"ser": [
+			"é",
+			"sou",
+			"ser",
+			"são",
+			"seja",
+			"foi",
+			"fui",
+			"somos",
+			"fosse",
+			"foram",
+			"será",
+			"sido"
+		],
+		"ir": [
+			"vou"
+		],
+		"ter": [
+			"teria"
+		]
+	},
+	"ADP": {
+		"com": [
+			"com"
+		],
+		"sobre": [
+			"sobre"
+		],
+		"a o": [
+			"ao",
+			"à",
+			"aos",
+			"às"
+		],
+		"até": [
+			"até"
+		],
+		"em": [
+			"em"
+		],
+		"em o": [
+			"no",
+			"na"
+		],
+		"de o": [
+			"da",
+			"do",
+			"dos",
+			"das"
+		],
+		"por o": [
+			"pela",
+			"pelo",
+			"pelos"
+		],
+		"exceto": [
+			"exceto"
+		],
+		"sem": [
+			"sem"
+		],
+		"entre": [
+			"entre"
+		],
+		"durante": [
+			"durante"
+		]
+	},
+	"ADJ": {
+		"artificial": [
+			"artificial"
+		],
+		"capaz": [
+			"capaz"
+		],
+		"externo": [
+			"externas"
+		],
+		"interno": [
+			"internas",
+			"interno"
+		],
+		"bom": [
+			"bom",
+			"boa",
+			"ótimo",
+			"melhor"
+		],
+		"neural": [
+			"neural",
+			"neurais"
+		],
+		"preciso": [
+			"preciso"
+		],
+		"feliz": [
+			"feliz",
+			"felizes"
+		],
+		"básico": [
+			"básicas"
+		],
+		"virtual": [
+			"virtual"
+		],
+		"virutal": [
+			"virutal"
+		],
+		"humano": [
+			"humana",
+			"humano",
+			"humanas"
+		],
+		"senciente": [
+			"senciente"
+		],
+		"estrito": [
+			"estrita"
+		],
+		"subjetivo": [
+			"subjetiva"
+		],
+		"simplista": [
+			"simplista"
+		],
+		"sapiente": [
+			"sapiente"
+		],
+		"sofisticado": [
+			"sofisticada",
+			"sofisticado"
+		],
+		"impressionado": [
+			"impressionado"
+		],
+		"sábia": [
+			"sábia"
+		],
+		"aplicável": [
+			"aplicável"
+		],
+		"amplo": [
+			"ampla"
+		],
+		"análogo": [
+			"análogo"
+		],
+		"igual": [
+			"igual"
+		],
+		"numérico": [
+			"numérica"
+		],
+		"linguístico": [
+			"linguística"
+		],
+		"imortal": [
+			"imortal"
+		],
+		"mesmo": [
+			"mesmo",
+			"mesma"
+		],
+		"possível": [
+			"possível"
+		],
+		"difícil": [
+			"difícil",
+			"difíceis"
+		],
+		"digital": [
+			"digital"
+		],
+		"perfeito": [
+			"perfeitas",
+			"perfeito"
+		],
+		"construído": [
+			"construído"
+		],
+		"certo": [
+			"certo"
+		],
+		"rude": [
+			"rude"
+		],
+		"estúpir": [
+			"estúpidos"
+		],
+		"superinteligente": [
+			"superinteligentes"
+		],
+		"inteligente": [
+			"inteligentes",
+			"inteligente"
+		],
+		"livre": [
+			"livre"
+		],
+		"surpreendente": [
+			"surpreendente"
+		],
+		"suficiente": [
+			"suficiente",
+			"suficientes"
+		],
+		"incapaz": [
+			"incapaz"
+		],
+		"tagarelo": [
+			"tagarela"
+		],
+		"corpóreo": [
+			"corpórea"
+		],
+		"feminino": [
+			"feminina"
+		],
+		"favorito": [
+			"favorita",
+			"favorito",
+			"favoritos",
+			"favoritas"
+		],
+		"atualmente": [
+			"atualmente"
+		],
+		"alto": [
+			"alto",
+			"altíssima",
+			"alta"
+		],
+		"dinâmico": [
+			"dinâmica"
+		],
+		"modular": [
+			"modular"
+		],
+		"imperativa": [
+			"imperativa"
+		],
+		"funcional": [
+			"funcional"
+		],
+		"forte": [
+			"forte"
+		],
+		"excelente": [
+			"excelente"
+		],
+		"parecido": [
+			"parecido"
+		],
+		"puro": [
+			"pura",
+			"puro"
+		],
+		"lógico": [
+			"lógica"
+		],
+		"operacional": [
+			"operacionais",
+			"operacional"
+		],
+		"necessário": [
+			"necessário"
+		],
+		"próprio": [
+			"próprio",
+			"próprios"
+		],
+		"apertado": [
+			"apertado"
+		],
+		"pessoal": [
+			"pessoal",
+			"pessoais"
+		],
+		"conectado": [
+			"conectado"
+		],
+		"robótico": [
+			"robótico"
+		],
+		"ruim": [
+			"ruim"
+		],
+		"prático": [
+			"práticos"
+		],
+		"impecável": [
+			"impecáveis"
+		],
+		"mau": [
+			"mau"
+		],
+		"estimulante": [
+			"estimulante"
+		],
+		"estúpido": [
+			"estúpida"
+		],
+		"burra": [
+			"burra"
+		],
+		"interessado": [
+			"interessada"
+		],
+		"natural": [
+			"natural"
+		],
+		"binário": [
+			"binários"
+		],
+		"distante": [
+			"distante"
+		],
+		"autônomo": [
+			"autônoma"
+		],
+		"jovem": [
+			"jovem"
+		],
+		"verde": [
+			"verde"
+		],
+		"eletrônico": [
+			"eletrônico"
+		],
+		"super": [
+			"super"
+		],
+		"grande": [
+			"grande",
+			"maiores",
+			"maior",
+			"grandes"
+		],
+		"geral": [
+			"geral"
+		],
+		"comum": [
+			"comuns",
+			"comum"
+		],
+		"primitivo": [
+			"primitivo"
+		],
+		"tear": [
+			"tear"
+		],
+		"mecânico": [
+			"mecânico"
+		],
+		"reprogramável": [
+			"reprogramável"
+		],
+		"central": [
+			"central"
+		],
+		"pequeno": [
+			"pequeno",
+			"pequenos",
+			"pequenas"
+		],
+		"contíguo": [
+			"contíguo"
+		],
+		"discreto": [
+			"discretos"
+		],
+		"aleatório": [
+			"aleatório"
+		],
+		"curto": [
+			"curto",
+			"curtos"
+		],
+		"rápido": [
+			"rápida",
+			"rápido"
+		],
+		"ligado": [
+			"ligado"
+		],
+		"rom": [
+			"rom"
+		],
+		"volátil": [
+			"volátil"
+		],
+		"único": [
+			"única"
+		],
+		"importante": [
+			"importantes"
+		],
+		"essencial": [
+			"essenciais"
+		],
+		"específico": [
+			"específico"
+		],
+		"real": [
+			"real",
+			"reais"
+		],
+		"intensivo": [
+			"intensivos"
+		],
+		"paralelo": [
+			"paralela"
+		],
+		"visual": [
+			"visual"
+		],
+		"principal": [
+			"principal"
+		],
+		"responsável": [
+			"responsável",
+			"responsáveis"
+		],
+		"microscópico": [
+			"microscópicas"
+		],
+		"elétrico": [
+			"elétrica",
+			"elétricas"
+		],
+		"maco": [
+			"macos"
+		],
+		"io": [
+			"ios"
+		],
+		"móvel": [
+			"móveis"
+		],
+		"input": [
+			"input"
+		],
+		"system": [
+			"system"
+		],
+		"adequado": [
+			"adequadas"
+		],
+		"voltar": [
+			"voltadas"
+		],
+		"ubuntu": [
+			"ubuntu"
+		],
+		"popular": [
+			"populares",
+			"popular"
+		],
+		"debian": [
+			"debian"
+		],
+		"gratuito": [
+			"gratuito"
+		],
+		"seguro": [
+			"seguro"
+		],
+		"estável": [
+			"estável"
+		],
+		"compatível": [
+			"compatível"
+		],
+		"fonte": [
+			"fonte"
+		],
+		"disponível": [
+			"disponível"
+		],
+		"fácil": [
+			"fácil"
+		],
+		"extensivo": [
+			"extensivo"
+		],
+		"regular": [
+			"regulares"
+		],
+		"burros": [
+			"burros"
+		],
+		"matemático": [
+			"matemáticas"
+		],
+		"arrogante": [
+			"arrogante"
+		],
+		"conciso": [
+			"conciso"
+		],
+		"incrível": [
+			"incrível"
+		],
+		"triste": [
+			"triste",
+			"tristes"
+		],
+		"legal": [
+			"legal"
+		],
+		"previsível": [
+			"previsível"
+		],
+		"agradável": [
+			"agradável"
+		],
+		"incorreto": [
+			"incorreta",
+			"incorreto"
+		],
+		"interessante": [
+			"interessante"
+		],
+		"baixo": [
+			"baixa"
+		],
+		"atual": [
+			"atual"
+		],
+		"restritivo": [
+			"restritivos"
+		],
+		"infeliz": [
+			"infeliz"
+		],
+		"louco": [
+			"louco"
+		],
+		"mental": [
+			"mental"
+		],
+		"profundo": [
+			"profundas"
+		],
+		"emocional": [
+			"emocionais"
+		],
+		"definidoro": [
+			"definidoras"
+		],
+		"assustado": [
+			"assustado"
+		],
+		"divertido": [
+			"divertido",
+			"divertida"
+		],
+		"curioso": [
+			"curiosa"
+		],
+		"expresso": [
+			"expresso"
+		],
+		"sozinho": [
+			"sozinho"
+		],
+		"entediado": [
+			"entediada",
+			"entediado"
+		],
+		"estranho": [
+			"estranha"
+		],
+		"hipotético": [
+			"hipotética"
+		],
+		"filosófico": [
+			"filosófica"
+		],
+		"simples": [
+			"simples"
+		],
+		"rico": [
+			"rico"
+		],
+		"subconsciente": [
+			"subconsciente"
+		],
+		"inconsciente": [
+			"inconsciente"
+		],
+		"embriagada": [
+			"embriagada"
+		],
+		"sóbrio": [
+			"sóbria"
+		],
+		"ciumento": [
+			"ciumenta"
+		],
+		"contente": [
+			"contente"
+		]
+	},
+	"SCONJ": {
+		"de": [
+			"de"
+		],
+		"por": [
+			"por"
+		],
+		"embora": [
+			"embora"
+		],
+		"para": [
+			"para"
+		],
+		"porque": [
+			"porque"
+		],
+		"pois": [
+			"pois"
+		]
+	},
+	"CCONJ": {
+		"e": [
+			"e"
+		],
+		"mas": [
+			"mas"
+		],
+		"portanto": [
+			"portanto"
+		],
+		"porém": [
+			"porém"
+		],
+		"ou": [
+			"ou"
+		]
+	},
+	"NUM": {
+		"2015": [
+			"2015"
+		],
+		"90": [
+			"90"
+		],
+		"1991": [
+			"1991"
+		],
+		"9000": [
+			"9000"
+		],
+		"99": [
+			"99"
+		],
+		"1": [
+			"1"
+		],
+		"bilhão": [
+			"bilhões"
+		],
+		"12": [
+			"12"
+		]
+	},
+	"SPACE": {
+		" ": [
+			" "
+		]
+	},
+	"X": {
+		"read": [
+			"read"
+		],
+		"graphics": [
+			"graphics"
+		],
+		"output": [
+			"output"
+		]
+	}
+}
