@@ -3,7 +3,7 @@ from ._BaseAttention import BaseAttention
 
 class CrossAttention(BaseAttention):
     def __init__(self, *args, **kwargs):
-        super().__init__()
+        super().__init__(*args, **kwargs)
         self.last_attn_scores = None
 
     def call(self, x, context):

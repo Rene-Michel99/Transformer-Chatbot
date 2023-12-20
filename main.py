@@ -2,14 +2,18 @@ import argparse
 
 from Layers import TextIDMapper
 from Models import Chatbot
+from Utils import download_trained_weights
 
 
 def start_inference():
     # Use a breakpoint in the code line below to debug your script.
     new_data = []
+    weights_path = download_trained_weights()
     text_processor = TextIDMapper()
     text_processor.load_vocab('./Data/tokens_by_type.json')
+
     chatbot = Chatbot(text_processor)
+    chatbot.load_weights(weights_path)
 
     while True:
         sentence = str(input("User: "))
@@ -37,7 +41,7 @@ def main():
 
     # Chamada da função com os parâmetros fornecidos
     if args.mode == "inference":
-        resultado = start_inference()
+        start_inference()
     else:
         raise NotImplementedError()
 
