@@ -20,13 +20,10 @@ class TextIDMapper(tf.keras.layers.Layer):
         self.word_to_id = None
 
     def load_vocab(self, json_path: str):
-        with open(json_path, 'rb') as f:
-            tokens_by_type = json.load(f)
+        with open(json_path, 'r', encoding='utf-8') as f:
+            tokens_by_type = json.loads(f.read())
 
-        for grammar_block in tokens_by_type.values():
-            for word_group in grammar_block.values():
-                self.words.extend(word_group)
-
+        self.words = tokens_by_type['tokens'][2:]
         self.word_to_id = tf.keras.layers.TextVectorization(
             max_tokens=5000,
             vocabulary=self.words,

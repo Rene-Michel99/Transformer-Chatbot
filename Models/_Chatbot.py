@@ -129,6 +129,7 @@ class Chatbot(tf.keras.models.Model):
         text = text.replace('(', ' ( ')
         text = text.replace(')', ' ) ')
         text = text.replace('/', ' / ')
+        print('Processed sentence:', text)
 
         return text.lower().strip()
 

@@ -27,13 +27,12 @@ def download_trained_weights(verbose=1) -> str:
 
     coco_model_path: local path of COCO trained weights
     """
-    trained_weights_path = "./logs/trained_weights"
+    trained_weights_path = "./logs/model_weights.h5"
     if not os.path.exists("./logs"):
         os.system("mkdir logs")
     if os.path.exists(trained_weights_path):
-        return os.path.join(trained_weights_path, 'model_weights', 'model_weights.tf')
+        return trained_weights_path
 
-    trained_weights_path = "./logs/trained_weights.zip"
     if verbose > 0:
         print("Downloading pretrained model to " + DEFAULT_TRAINED_WEIGHTS_URL + " ...")
     with urllib.request.urlopen(DEFAULT_TRAINED_WEIGHTS_URL) as resp, open(trained_weights_path, 'wb') as out:
@@ -42,5 +41,4 @@ def download_trained_weights(verbose=1) -> str:
     if verbose > 0:
         print("... done downloading pretrained model!")
 
-    unzip_path = unzip_file(trained_weights_path)
-    return os.path.join(unzip_path, 'model_weights', 'model_weights.tf')
+    return trained_weights_path

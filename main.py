@@ -1,3 +1,4 @@
+import tensorflow as tf
 import argparse
 
 from Layers import TextIDMapper
@@ -13,6 +14,7 @@ def start_inference():
     text_processor.load_vocab('./Data/tokens_by_type.json')
 
     chatbot = Chatbot(text_processor)
+    chatbot(tf.convert_to_tensor((['olá'], ['olá'])))
     chatbot.load_weights(weights_path)
 
     while True:
