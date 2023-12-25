@@ -3,7 +3,7 @@ import re
 import spacy
 import tensorflow as tf
 
-from TokenGrouper import TokenPOSGrouper
+from Layers.TokenGrouper import TokenPOSGrouper
 
 
 class TextIDMapper(tf.keras.layers.Layer):
@@ -11,7 +11,7 @@ class TextIDMapper(tf.keras.layers.Layer):
         super().__init__()
         self.nlp = spacy.load("pt_core_news_md")
 
-        # dont need to add [UNK] and ''
+        # we don't need to add [UNK] and ''
         self.words = [
             '[START]',
             '[END]',

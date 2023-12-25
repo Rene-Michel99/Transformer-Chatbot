@@ -125,11 +125,15 @@ class Chatbot(tf.keras.models.Model):
 
     @staticmethod
     def _preprocess_input_sentence(text: str):
+        text = text.lower()
         text = re.sub(r"([.!,?])", r" \1", text)
         text = text.replace('(', ' ( ')
         text = text.replace(')', ' ) ')
         text = text.replace('/', ' / ')
+        text = text.replace('por que', 'porque')
+        text = text.replace('por quê', 'porque')
+        text = text.replace('porquê', 'porque')
         print('Processed sentence:', text)
 
-        return text.lower().strip()
+        return text.strip()
 
