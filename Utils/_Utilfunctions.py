@@ -5,7 +5,7 @@ import urllib
 import zipfile
 
 
-DEFAULT_TRAINED_WEIGHTS_URL = "https://github.com/Rene-Michel99/Transformer-Chatbot/releases/download/trained_weights/model_weights.zip"
+DEFAULT_TRAINED_WEIGHTS_URL = "https://github.com/Rene-Michel99/Transformer-Chatbot/releases/download/trained_weights/model_weights.h5"
 
 
 def unzip_file(file_path: str):
@@ -22,14 +22,14 @@ def unzip_file(file_path: str):
     return unzipped_path_file
 
 
-def download_trained_weights(verbose=1) -> str:
+def download_trained_weights(dir_path, verbose=1) -> str:
     """Download COCO trained weights from Releases.
 
     coco_model_path: local path of COCO trained weights
     """
-    trained_weights_path = "./logs/model_weights.h5"
-    if not os.path.exists("./logs"):
-        os.system("mkdir logs")
+    trained_weights_path = os.path.join(dir_path, "model_weights.h5")
+    if not os.path.exists(dir_path):
+        os.system("mkdir {}".format(dir_path))
     if os.path.exists(trained_weights_path):
         return trained_weights_path
 
