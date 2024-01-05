@@ -61,8 +61,8 @@ class TextIDMapper(tf.keras.layers.Layer):
             invert=True
         )
 
-    def call(self, batch_data, inp_type):
-        if inp_type == "input":
+    def call(self, batch_data):
+        if batch_data.dtype == tf.string:
             return self.word_to_id(batch_data)
         else:
             return self.id_to_word(batch_data)
@@ -76,13 +76,26 @@ class TextIDMapper(tf.keras.layers.Layer):
     def get_vocabulary(self):
         return self.word_to_id.get_vocabulary()
 
+    def _tokenize_and_add(self, token_grouper, text, special_tokens):
+        text = text.lower()
+        text = self._get_special_tokens(text, special_tokens)
+        for token in self.nlp(str(text)):
+            tk_text = special_tokens.get(token.text, token.text)
+            token_grouper.add(token, tk_text)
+
     @staticmethod
-    def _get_special_tokens(text: str, dict_tokens: dict):
+    def _get_special_tokens(self, text, dict_tokens):
         special_tokens = re.findall(r"<.*?>", text)
         for sp_tk in special_tokens:
-            parsed_tk = sp_tk.replace("<", "xxx").replace(">", "xxx")
+            parsed_tk = sp_tk.replace("<", "tag").replace(">", "tag")
             dict_tokens[parsed_tk] = sp_tk
             text = text.replace(sp_tk, parsed_tk)
+
+        flag_tokens = re.findall(r" -\w+", text)
+        for flag_token in flag_tokens:
+            parsed_tk = flag_token.replace('-', '')
+            text = text.replace(flag_token, parsed_tk)
+            dict_tokens[parsed_tk.strip()] = flag_token.strip()
 
         return text
 

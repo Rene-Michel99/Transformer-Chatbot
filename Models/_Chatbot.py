@@ -54,27 +54,27 @@ class Chatbot(tf.keras.models.Model):
         return {m.name: m.result() for m in self.metrics}
 
     def tokens_to_text(self, tokens):
-        words = self.text_processor(tokens, 'output')
+        words = self.text_processor(tokens)
         result = tf.strings.reduce_join(words, axis=-1, separator=' ')
         result = tf.strings.regex_replace(result, '^ *\[START\] *', '')
         result = tf.strings.regex_replace(result, ' *\[END\] *$', '')
 
         return result
 
-    def predict(self, sentence: str, max_length=128):
+    def predict(self, sentence: str):
         # The input sentence is Portuguese, hence adding the `[START]` and `[END]` tokens.
 
         sentence = tf.constant(self._preprocess_input_sentence(sentence))
         if len(sentence.shape) == 0:
             sentence = sentence[tf.newaxis]
 
-        sentence = self.text_processor(sentence, 'input')
+        sentence = self.text_processor(sentence)
 
         encoder_input = sentence
 
         # As the output language is English, initialize the output with the
         # English `[START]` token.
-        start_end = self.text_processor([''], "input")[0]
+        start_end = self.text_processor(tf.convert_to_tensor(['']))[0]
         start = start_end[0][tf.newaxis]
         end = start_end[1][tf.newaxis]
 
@@ -83,7 +83,7 @@ class Chatbot(tf.keras.models.Model):
         output_array = tf.TensorArray(dtype=tf.int64, size=0, dynamic_size=True)
         output_array = output_array.write(0, start)
 
-        for i in tf.range(max_length):
+        for i in tf.range(self.MAX_TOKENS):
             output = tf.transpose(output_array.stack())
             predictions = self.transformer([encoder_input, output], training=False)
 
@@ -112,11 +112,15 @@ class Chatbot(tf.keras.models.Model):
 
         return text, None, attention_weights
 
+    def interact(self, sentence: str):
+        translated_text, translated_tokens, attention_weights = self.predict(sentence)
+        return translated_text.numpy().decode('utf-8')
+
     def _prepare_batch(self, query, answer):
-        query = self.text_processor(query, 'input')  # Output is ragged.
+        query = self.text_processor(query)
         query = query[:, :self.MAX_TOKENS]  # Trim to MAX_TOKENS.
 
-        answer = self.text_processor(answer, 'input')
+        answer = self.text_processor(answer)
         answer = answer[:, :(self.MAX_TOKENS + 1)]
         answer_inputs = answer[:, :-1]  # Drop the [END] tokens
         answer_labels = answer[:, 1:]  # Drop the [START] tokens
@@ -126,14 +130,21 @@ class Chatbot(tf.keras.models.Model):
     @staticmethod
     def _preprocess_input_sentence(text: str):
         text = text.lower()
-        text = re.sub(r"([.!,?])", r" \1", text)
+        text = re.sub(r"([!,?:])", r" \1", text)
         text = text.replace('(', ' ( ')
         text = text.replace(')', ' ) ')
         text = text.replace('/', ' / ')
+        text = text.replace('`', ' ` ')
         text = text.replace('por que', 'porque')
         text = text.replace('por quê', 'porque')
         text = text.replace('porquê', 'porque')
-        print('Processed sentence:', text)
+
+        endpoints = re.findall(r"\w+\. ", text)
+        for endpoint in endpoints:
+            text = text.replace(endpoint, endpoint.replace('. ', ' . '))
+
+        if text.endswith('.'):
+            text = text[:len(text) - 1] + ' . '
 
         return text.strip()
 
