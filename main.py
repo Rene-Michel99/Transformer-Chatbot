@@ -61,7 +61,6 @@ def _get_data(dataset):
 
 
 def start_inference():
-    # Use a breakpoint in the code line below to debug your script.
     new_data = []
     weights_path = download_trained_weights("./logs")
     text_processor = TextIDMapper()
