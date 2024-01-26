@@ -17,6 +17,8 @@ def start_inference():
     chatbot(tf.convert_to_tensor((['olá'], ['olá'])))
     chatbot.load_weights(weights_path)
 
+    print("\n\n\n")
+
     while True:
         sentence = str(input("User: "))
         if sentence == 'quit':
